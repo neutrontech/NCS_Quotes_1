@@ -61,6 +61,8 @@ function setMachineAccounts() {
         value[0].name = shiptoLookup[0].name;     			//value
         value[0].entityType = shiptoLookup[0].entityType;  	//ent name
         Xrm.Page.getAttribute("ncs_machineloc").setValue(value);
+
+
     }
 }
       
